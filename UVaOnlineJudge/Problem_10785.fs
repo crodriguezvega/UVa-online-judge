@@ -20,7 +20,7 @@ module Problem_10785 =
       match index, vowels, consonants with
       | _, _, _ when index = length -> Some (System.String (Array.ofList(List.rev str)))
       | Odd, head :: tail, _ -> loop (index + 1u) tail consonants (head :: str)
-      | Even, _, head:: tail -> loop (index + 1u) vowels tail (head :: str)
+      | Even, _, head :: tail -> loop (index + 1u) vowels tail (head :: str)
       | _, _, _ -> None
     loop 1u vowels consonants List.empty
 
