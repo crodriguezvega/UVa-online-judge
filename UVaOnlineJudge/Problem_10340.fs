@@ -3,7 +3,7 @@
 module Problem_10340 =
   // Input
   let s = "VERDI"
-  let t = "vivaVittorioEmanueleReDiIatlia"
+  let t = "vivaVittorioEmanueleReDiItalia"
 
   let rec isSubsequence s t =
     match s with
