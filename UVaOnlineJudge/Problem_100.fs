@@ -19,4 +19,3 @@ module Problem_100 =
     maxLength
 
   printfn "%d %d %d" i j (maximumCycleLength i j)
-
