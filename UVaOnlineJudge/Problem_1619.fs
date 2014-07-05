@@ -12,7 +12,7 @@ module Problem_1619 =
 
   let calculateEmotionalPeriods (dayValues: int []) =
     [for i in 0 .. dayValues.Length - 1 do
-      for j in 2 .. dayValues.Length - i do
+      for j in 1 .. dayValues.Length - i do
         let subArray = Array.sub dayValues i j
         yield new EmotionalPeriod ((Array.sum subArray) * (Array.min subArray), (i + 1), (i + j))]
 
