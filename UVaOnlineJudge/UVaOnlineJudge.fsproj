@@ -71,6 +71,7 @@
     <Compile Include="Problem_10034.fs" />
     <Compile Include="Problem_11309.fs" />
     <Compile Include="Problem_1618.fs" />
+    <Compile Include="Problem_927.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
