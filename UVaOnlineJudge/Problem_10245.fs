@@ -1,4 +1,4 @@
-﻿namespace UVaOnlineJudge
+namespace UVaOnlineJudge
 
 module Problem_10245 =
   type Coordinate2D (x, y) = class
@@ -12,12 +12,12 @@ module Problem_10245 =
     | _ when distance >= 10000.0 -> printfn "INFINITY"
     | _ -> printfn "%F" distance
 
-  let distanceBetweenPoints points =
-    let rec loop (points: Coordinate2D list) distances =
-      match points with
-      | [] -> distances
-      | head :: tail -> loop tail ((List.map (fun x -> head.Distance x) tail) @ distances)
-    loop points List.Empty
+  let rec distanceBetweenPoints (points: Coordinate2D list) =
+    match points with
+    | [] -> []
+    | head :: tail -> 
+      let distances = List.map (fun x -> head.Distance x) tail
+      List.append distances (distanceBetweenPoints tail)
 
   [new Coordinate2D (0, 2);
    new Coordinate2D (6, 67);
