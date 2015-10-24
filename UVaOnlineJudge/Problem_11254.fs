@@ -1,22 +1,22 @@
 ﻿namespace UVaOnlineJudge
 
 module Problem_11254 =
-  let input = 10000000
+  let input = 1000
 
   let sumOfConsecutiveIntegers input =
     let rec loop length range (sequences: list<int * int * int>) =
+      let tail = Seq.skip 1 range
       match length, range with
       | _, _ when Seq.isEmpty range -> sequences
       | _, _ when length > Seq.length range ->
-        let tail = (range |> Seq.toList |> List.tail |> List.toSeq)
         loop 2 tail sequences
       | _, _ ->
-        let tail = (range |> Seq.toList |> List.tail |> List.toSeq)
         let sequence = Seq.take length range
-        match sequence with 
-        | _ when Seq.sum sequence = input ->
+        let sequenceSum = Seq.sum sequence
+        match sequenceSum with 
+        | _ when sequenceSum = input ->
           loop 2 tail ((Seq.head sequence, Seq.last sequence, Seq.length sequence) :: sequences)
-        | _ when Seq.sum sequence > input ->
+        | _ when sequenceSum > input ->
           loop 2 tail sequences
         | _ -> loop (length + 1) range sequences
     loop 2 (seq {1 .. int (ceil (float (input) / 2.0))}) [(input, input, 1)]
