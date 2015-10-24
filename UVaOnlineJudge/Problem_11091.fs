@@ -1,6 +1,6 @@
 ﻿namespace UVaOnlineJudge
 
-module Problem_11091 =
+module Problem_10004 =
   // Input
   let numberOfNodes = 3
   let graph = [[1; 2]; [0; 2]; [0; 1]]
