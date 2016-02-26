@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -50,28 +50,28 @@
   <ItemGroup>
     <Compile Include="Problem_10154.fs" />
     <None Include="App.config" />
-    <Compile Include="Problem_568.fs" />
-    <Compile Include="Problem_100.fs" />
-    <Compile Include="Problem_113.fs" />
-    <Compile Include="Problem_136.fs" />
+    <Compile Include="Problem_00568.fs" />
+    <Compile Include="Problem_00100.fs" />
+    <Compile Include="Problem_00113.fs" />
+    <Compile Include="Problem_00136.fs" />
     <Compile Include="Problem_10035.fs" />
-    <Compile Include="Problem_350.fs" />
+    <Compile Include="Problem_00350.fs" />
     <Compile Include="Problem_10785.fs" />
     <Compile Include="Problem_10340.fs" />
     <Compile Include="Problem_10245.fs" />
-    <Compile Include="Problem_562.fs" />
+    <Compile Include="Problem_00562.fs" />
     <Compile Include="Problem_10994.fs" />
     <Compile Include="Problem_10591.fs" />
-    <Compile Include="Problem_1640.fs" />
-    <Compile Include="Problem_1619.fs" />
+    <Compile Include="Problem_01640.fs" />
+    <Compile Include="Problem_01619.fs" />
     <Compile Include="Problem_11536.fs" />
     <Compile Include="Problem_11254.fs" />
     <Compile Include="Problem_11091.fs" />
     <Compile Include="Problem_10026.fs" />
     <Compile Include="Problem_10034.fs" />
     <Compile Include="Problem_11309.fs" />
-    <Compile Include="Problem_1618.fs" />
-    <Compile Include="Problem_927.fs" />
+    <Compile Include="Problem_01618.fs" />
+    <Compile Include="Problem_00927.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
