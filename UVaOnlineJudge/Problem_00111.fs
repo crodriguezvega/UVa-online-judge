@@ -1,7 +1,7 @@
 namespace UVaOnlineJudge
 
 // Longest common subsequence algorithm (https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
-module Problem_00111 =
+module Problem_111 =
   // Input
   let order = [3; 1; 2; 4; 9; 5; 10; 6; 8; 7]
   let rank = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
