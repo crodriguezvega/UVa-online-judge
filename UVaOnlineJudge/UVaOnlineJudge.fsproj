@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -47,33 +47,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem_10154.fs" />
     <None Include="App.config" />
-    <Compile Include="Problem_00568.fs" />
-    <Compile Include="Problem_00100.fs" />
-    <Compile Include="Problem_00113.fs" />
-    <Compile Include="Problem_00136.fs" />
-    <Compile Include="Problem_10035.fs" />
-    <Compile Include="Problem_00350.fs" />
-    <Compile Include="Problem_10785.fs" />
-    <Compile Include="Problem_10340.fs" />
-    <Compile Include="Problem_10245.fs" />
-    <Compile Include="Problem_00562.fs" />
-    <Compile Include="Problem_10994.fs" />
-    <Compile Include="Problem_10591.fs" />
-    <Compile Include="Problem_01640.fs" />
-    <Compile Include="Problem_01619.fs" />
-    <Compile Include="Problem_11536.fs" />
-    <Compile Include="Problem_11254.fs" />
-    <Compile Include="Problem_11091.fs" />
-    <Compile Include="Problem_10026.fs" />
-    <Compile Include="Problem_10034.fs" />
-    <Compile Include="Problem_11309.fs" />
-    <Compile Include="Problem_01618.fs" />
-    <Compile Include="Problem_00927.fs" />
-    <Compile Include="Problem_00253.fs" />
-    <Compile Include="Problem_00111.fs" />
-    <Compile Include="Problem_10905.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00111.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 5 %28500-599%29\Problem_00568.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00100.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00113.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00136.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 3 %28300-399%29\Problem_00350.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10035.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10154.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 107 %2810700-10799%29\Problem_10785.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 103 %2810300-10399%29\Problem_10340.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 102 %2810200-10299%29\Problem_10245.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 5 %28500-599%29\Problem_00562.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 109 %2810900-10999%29\Problem_10994.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 105 %2810500-10599%29\Problem_10591.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01640.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01619.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 115 %2811500-11599%29\Problem_11536.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 112 %2811200-11299%29\Problem_11254.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10026.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10034.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 113 %2811300-11399%29\Problem_11309.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01618.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 109 %2810900-10999%29\Problem_10905.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 9 %28900-999%29\Problem_00927.fs" />
+    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 2 %28200-299%29\Problem_00253.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10004.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -98,4 +98,24 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Problem Set Volumes %28100... 1999%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 5 %28500-599%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 3 %28300-399%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 107 %2810700-10799%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 103 %2810300-10399%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 102 %2810200-10299%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 109 %2810900-10999%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 105 %2810500-10599%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 115 %2811500-11599%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 112 %2811200-11299%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 113 %2811300-11399%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 9 %28900-999%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 2 %28200-299%29\" />
+  </ItemGroup>
 </Project>
