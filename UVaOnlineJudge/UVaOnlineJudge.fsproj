@@ -75,6 +75,7 @@
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 2 %28200-299%29\Problem_00253.fs" />
     <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10004.fs" />
     <Compile Include="Contest Volumes %2810000...%29\Volume 107 %2810700-10799%29\Problem_10763.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10132.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
