@@ -29,8 +29,10 @@ module Problem_311 =
               numberOfParcels, (packetsOfSize1 - newPacketsOfSize2 * 4, newPacketsOfSize2)
           | 1 ->
             let newPacketsOfSize1 = (head - packetsOfSize1)
-            if newPacketsOfSize1 > 0 then (numberOfParcels + (newPacketsOfSize1 + 35) / 36), (newPacketsOfSize1, packetsOfSize2)
-            else numberOfParcels, (newPacketsOfSize1, packetsOfSize2)
+            if newPacketsOfSize1 > 0 then
+              (numberOfParcels + (newPacketsOfSize1 + 35) / 36), (newPacketsOfSize1, packetsOfSize2)
+            else
+              numberOfParcels, (newPacketsOfSize1, packetsOfSize2)
           | _ -> failwith "error"
 
         let nextSize = size - 1
