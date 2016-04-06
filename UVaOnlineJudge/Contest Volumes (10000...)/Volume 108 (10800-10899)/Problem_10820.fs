@@ -2,21 +2,18 @@
 
 module Problem_10820 =
   // Input
-  let N = 5
+  let N = 50000
 
   let rec sieve numbers =
     match numbers with
     | [] -> []
-    | (head :: tail) -> head :: sieve [for x in tail do if x % head > 0 then yield x]
+    | head :: tail -> head :: sieve [for x in tail do if x % head > 0 then yield x]
 
-  let factorial number = [1..number] |> List.reduce (*)
+  let permutationsWithRepetition chooseFrom chooseOf = pown chooseFrom chooseOf
 
-  let combinationsWithRepetitions chooseFrom chooseOf =
-    let a = [chooseFrom..chooseFrom + chooseOf - 1] |> List.reduce (*)
-    let b = [1..chooseOf] |> List.reduce (*)
-    a / b
-
-  let numberOfPrimes = sieve [2..N] |> List.length
-  let result = combinationsWithRepetitions numberOfPrimes 2
+  let numberOfPrimesIncludingOne = 1 + (sieve [2..N] |> List.length)
+  let permutationsOfPrimes = permutationsWithRepetition numberOfPrimesIncludingOne 2
+  let permutationsOfMultiples = (numberOfPrimesIncludingOne - 1) * (N - numberOfPrimesIncludingOne)
+  let result = permutationsOfPrimes + permutationsOfMultiples
 
   printfn "%d" result
