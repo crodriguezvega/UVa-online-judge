@@ -40,18 +40,18 @@ module Problem_11176 =
     | [] -> 0
     | _ -> List.max lengths
 
-  let rec convertToProbability streak =
+  let rec calculateProbability streak =
     match streak with
     | [] -> 1.0
     | head :: tail ->
       let probability = match head with
                         | Win -> winningProbability
                         | Lose -> 1.0 - winningProbability
-      probability * convertToProbability tail
+      probability * calculateProbability tail
 
   let streaks = generateStreaks initialStreak
   let lengthsWinningStreak = streaks |> List.map calculateLengthWinningStreak
-  let expectedLengthWinningStreak = streaks |> List.map convertToProbability
+  let expectedLengthWinningStreak = streaks |> List.map calculateProbability
                                             |> List.zip lengthsWinningStreak
                                             |> List.map (fun (length, probability) -> float length * probability)
                                             |> List.reduce (+)
