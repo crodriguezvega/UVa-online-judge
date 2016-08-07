@@ -19,11 +19,11 @@ module Problem_10400 =
     | Division -> (/)
 
   let toString operation =
-      match operation with
-      | Sum -> "+"
-      | Subtraction -> "-"
-      | Multiplication -> "*"
-      | Division -> "/"
+    match operation with
+    | Sum -> "+"
+    | Subtraction -> "-"
+    | Multiplication -> "*"
+    | Division -> "/"
 
   let nextOperations current =
     let increment operation =
