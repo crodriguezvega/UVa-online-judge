@@ -73,7 +73,8 @@ module Problem_10400 =
   let rec formatExpression operations numbers target =
     match operations, numbers with
     | [] , [] -> [sprintf "=%d" target]
-    | [], number :: tailNumbers -> sprintf "%d" number :: formatExpression [] tailNumbers target
+    | [], number :: tailNumbers ->
+      sprintf "%d" number :: formatExpression [] tailNumbers target
     | operation :: tailOperations, number :: tailNumbers ->
       sprintf "%d%s" number operation :: formatExpression tailOperations tailNumbers target
     | _, _ -> []
