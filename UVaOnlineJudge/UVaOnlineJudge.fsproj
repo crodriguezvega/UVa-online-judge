@@ -85,6 +85,7 @@
     <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10012.fs" />
     <Compile Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10048.fs" />
     <Compile Include="Contest Volumes %2810000...%29\Volume 104 %2810400 -10499%29\Problem_10400.fs" />
+    <Compile Include="Contest Volumes %2810000...%29\Volume 129 %2812900 - 12999%29\Problem_12904.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -132,5 +133,6 @@
     <Folder Include="Contest Volumes %2810000...%29\Volume 108 %2810800-10899%29\" />
     <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 11 %281100-1199%29\" />
     <Folder Include="Contest Volumes %2810000...%29\Volume 111 %2811100-11199%29\" />
+    <Folder Include="Contest Volumes %2810000...%29\Volume 129 %2812900 - 12999%29\" />
   </ItemGroup>
 </Project>
