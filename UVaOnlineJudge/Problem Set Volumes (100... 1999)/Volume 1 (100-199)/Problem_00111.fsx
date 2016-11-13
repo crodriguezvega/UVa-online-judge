@@ -1,5 +1,3 @@
-namespace UVaOnlineJudge
-
 // Longest common subsequence algorithm (https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 module Problem_111 =
   // Input
