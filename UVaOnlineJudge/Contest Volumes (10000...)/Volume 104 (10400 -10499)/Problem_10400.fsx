@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10400 =
+﻿module Problem_10400 =
   // Input
   let numbers = [12; 2; 5; 1; 2] 
   let target = 4

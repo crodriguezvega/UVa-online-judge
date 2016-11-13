@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10048 =
+﻿module Problem_10048 =
   // Inputs
   let crossings = [
                     ((1, 2), 50);

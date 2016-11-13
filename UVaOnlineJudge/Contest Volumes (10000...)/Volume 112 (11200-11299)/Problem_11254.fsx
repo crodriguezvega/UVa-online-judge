@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_11254 =
+﻿module Problem_11254 =
   let input = 1000
 
   let sumOfConsecutiveIntegers input =

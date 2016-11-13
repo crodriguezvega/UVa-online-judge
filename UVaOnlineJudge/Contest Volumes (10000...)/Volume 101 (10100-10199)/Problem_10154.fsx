@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10154 =
+﻿module Problem_10154 =
   type Turtle (weight: uint16, strength: uint16) = class
     let mutable spareStrength = strength - weight
 

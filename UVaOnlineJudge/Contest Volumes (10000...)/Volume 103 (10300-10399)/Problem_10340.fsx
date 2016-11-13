@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10340 =
+﻿module Problem_10340 =
   // Input
   let s = "VERDI"
   let t = "vivaVittorioEmanueleReDiItalia"

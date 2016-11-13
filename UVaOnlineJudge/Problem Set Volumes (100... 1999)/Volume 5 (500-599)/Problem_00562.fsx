@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_562 =
+﻿module Problem_562 =
   // Input
   let coins = [6; 7; 8; 21; 38; 100; 101]
 

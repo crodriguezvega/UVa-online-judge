@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10026 =
+﻿module Problem_10026 =
   type Job (index: uint16, duration: uint16, fine: uint16) = class
     member this.Index = index
     member this.Duration = duration

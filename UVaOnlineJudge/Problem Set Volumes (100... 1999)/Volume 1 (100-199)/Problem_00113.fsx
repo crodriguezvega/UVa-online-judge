@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-// http://en.wikipedia.org/wiki/Nth_root_algorithm
+﻿// http://en.wikipedia.org/wiki/Nth_root_algorithm
 module Problem_113 =
   // Inputs
   let n = 7I

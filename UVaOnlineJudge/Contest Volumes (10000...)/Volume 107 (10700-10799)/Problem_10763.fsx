@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10763 =
+﻿module Problem_10763 =
   // Input
   let exchange = [(1, 2);
                   (2, 1);

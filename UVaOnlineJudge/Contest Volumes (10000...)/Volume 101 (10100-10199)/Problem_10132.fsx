@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10132 =
+﻿module Problem_10132 =
   // Input
   let fragments = ["011";
                    "01";

@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10034 =
+﻿module Problem_10034 =
   type Vertex (x, y) = class
     member this.X = x
     member this.Y = y

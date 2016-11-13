@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_1640 =
+﻿module Problem_1640 =
   // Inputs
   let a = 503
   let b = 1004

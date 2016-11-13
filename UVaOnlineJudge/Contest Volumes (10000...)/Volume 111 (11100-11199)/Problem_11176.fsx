@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_11176 =
+﻿module Problem_11176 =
   // Input
   let numberOfGames = 10
   let winningProbability =  0.75

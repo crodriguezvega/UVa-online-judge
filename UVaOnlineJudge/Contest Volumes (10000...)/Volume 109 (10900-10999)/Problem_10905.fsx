@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10905 =
+﻿module Problem_10905 =
   // Input
   let input = [123; 124; 56; 90; 9]
 

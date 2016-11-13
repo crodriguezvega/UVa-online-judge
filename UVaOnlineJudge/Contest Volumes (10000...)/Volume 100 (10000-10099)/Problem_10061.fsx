@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-// http://math.stackexchange.com/questions/226868/number-of-trailing-zeros-in-a-factorial-in-base-b
+﻿// http://math.stackexchange.com/questions/226868/number-of-trailing-zeros-in-a-factorial-in-base-b
 // http://mathforum.org/library/drmath/view/55723.html
 
 module Problem_10061 =

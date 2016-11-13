@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10012 =
+﻿module Problem_10012 =
   // Inputs
   let radiuses = [2.0; 1.0; 4.0]
 

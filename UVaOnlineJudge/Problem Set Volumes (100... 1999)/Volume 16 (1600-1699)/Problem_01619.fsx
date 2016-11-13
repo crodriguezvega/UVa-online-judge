@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_1619 =
+﻿module Problem_1619 =
   // Input
   let dayValues = [|3; 1; 6; 4; 5; 2|]
 

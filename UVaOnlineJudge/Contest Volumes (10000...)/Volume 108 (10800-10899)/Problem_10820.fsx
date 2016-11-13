@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_10820 =
+﻿module Problem_10820 =
   // Input
   let N = 50000
 

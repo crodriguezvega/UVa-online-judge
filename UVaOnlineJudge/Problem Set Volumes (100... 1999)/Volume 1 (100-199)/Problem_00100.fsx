@@ -1,5 +1,3 @@
-namespace UVaOnlineJudge
-
 module Problem_100 =
   // Inputs
   let i = 900

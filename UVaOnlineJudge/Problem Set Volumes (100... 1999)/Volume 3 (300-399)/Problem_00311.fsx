@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_311 =
+﻿module Problem_311 =
   // Input
   let order = [7; 5; 1; 0; 0; 0]
 

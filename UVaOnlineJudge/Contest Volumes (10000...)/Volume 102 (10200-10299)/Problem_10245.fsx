@@ -1,5 +1,3 @@
-namespace UVaOnlineJudge
-
 module Problem_10245 =
   type Coordinate2D (x, y) = class
     member this.x = x

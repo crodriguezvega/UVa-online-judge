@@ -1,6 +1,4 @@
-﻿namespace UVaOnlineJudge
-
-module Problem_11309 =
+﻿module Problem_11309 =
   // Input
   let time = "14:59"
 
