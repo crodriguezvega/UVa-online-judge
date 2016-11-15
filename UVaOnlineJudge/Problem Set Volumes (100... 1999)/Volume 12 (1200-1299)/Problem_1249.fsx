@@ -24,18 +24,19 @@
     let v = vector A C
     acos ((u.x * v.x + u.y * v.y) / (sqrt (u.x ** 2.0 + u.y ** 2.0) * sqrt (v.x ** 2.0 + v.y ** 2.0)))
 
-  let calculatePoints A B angle height =
-    let distance = height / sin angle
-    let deltaX = distance * cos angle
-    let deltaY = distance * sin angle
+  let calculatePoints A B theta elevation height =
+    let distance = height / sin theta
+    let deltaX = distance * cos (theta + elevation)
+    let deltaY = distance * sin (theta + elevation)
     let H = { x = A.x + deltaX; y = A.y + deltaY}
     let G = { x = B.x + deltaX; y = B.y + deltaY}
     G, H
 
   let area = areaTriangle D E F
   let theta = angle A B C
+  let elevation = angle A { x = A.x + 1.0; y = A.y } B
   let width = distance A B
   let height = area / width
-  let G, H = calculatePoints A B theta height
+  let G, H = calculatePoints A B theta elevation height
 
   printfn "%.3f %.3f %.3f %.3f" G.x G.y H.x H.y
