@@ -88,6 +88,19 @@
     <Compile Include="Contest Volumes %2810000...%29\Volume 129 %2812900 - 12999%29\Problem_12904.fsx" />
     <Compile Include="Contest Volumes %2810000...%29\Volume 104 %2810400-10499%29\Problem_10400.fsx" />
     <None Include="Problem Set Volumes %28100... 1999%29\Volume 12 %281200-1299%29\Problem_1249.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10137.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10142.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10110.fsx" />
+    <None Include="Problem Set Volumes %28100... 1999%29\Volume 8 %28800-899%29\Problem_00847.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10010.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10038.fsx" />
+    <None Include="Problem Set Volumes %28100... 1999%29\Volume 8 %28800-899%29\Problem_00843.fsx" />
+    <None Include="Problem Set Volumes %28100... 1999%29\Volume 8 %28800-899%29\Problem_00850.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10037.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10041.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10152.fsx" />
+    <None Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00120.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10051.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
@@ -138,5 +151,6 @@
     <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 14 %281400 - 1499%29\" />
     <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 12 %281200-1299%29\" />
     <Folder Include="Contest Volumes %2810000...%29\Volume 104 %2810400-10499%29\" />
+    <Folder Include="Problem Set Volumes %28100... 1999%29\Volume 8 %28800-899%29\" />
   </ItemGroup>
 </Project>
