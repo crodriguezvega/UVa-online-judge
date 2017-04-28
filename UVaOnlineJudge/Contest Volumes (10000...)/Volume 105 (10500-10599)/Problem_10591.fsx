@@ -1,4 +1,4 @@
-﻿module Problem_10591 =
+module Problem_10591 =
   // Input
   let number = 13
 
