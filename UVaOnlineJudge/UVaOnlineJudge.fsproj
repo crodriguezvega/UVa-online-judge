@@ -60,7 +60,6 @@
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01640.fsx" />
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01619.fsx" />
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01618.fsx" />
-    <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 16 %281600-1699%29\Problem_01633.fsx" />
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 9 %28900-999%29\Problem_00927.fsx" />
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 2 %28200-299%29\Problem_00253.fsx" />
     <Compile Include="Problem Set Volumes %28100... 1999%29\Volume 11 %281100-1199%29\Problem_01152.fsx" />
@@ -101,6 +100,7 @@
     <None Include="Contest Volumes %2810000...%29\Volume 101 %2810100-10199%29\Problem_10152.fsx" />
     <None Include="Problem Set Volumes %28100... 1999%29\Volume 1 %28100-199%29\Problem_00120.fsx" />
     <None Include="Contest Volumes %2810000...%29\Volume 100 %2810000-10099%29\Problem_10051.fsx" />
+    <None Include="Contest Volumes %2810000...%29\Volume 105 %2810500-10599%29\Problem_10556.fsx" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
