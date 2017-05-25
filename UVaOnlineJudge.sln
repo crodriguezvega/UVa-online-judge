@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UVaOnlineJudge", "UVaOnlineJudge\UVaOnlineJudge.fsproj", "{BD3F9B01-75D6-49A7-AD5F-559422105DDA}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "UVaOnlineJudge", "UVaOnlineJudge\UVaOnlineJudge.fsproj", "{BD3F9B01-75D6-49A7-AD5F-559422105DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,27 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.TabWidth = 2
+		$2.TabsToSpaces = True
+		$2.IndentWidth = 2
+		$2.NoTabsAfterNonTabs = True
+		$2.scope = text/x-fsharp
+		$0.FSharpFormattingPolicy = $3
+		$3.DefaultFormat = $4
+		$4.IndentOnTryWith = False
+		$4.ReorderOpenDeclaration = False
+		$4.SpaceAfterComma = True
+		$4.SpaceAfterSemicolon = True
+		$4.SpaceAroundDelimiter = True
+		$4.SpaceBeforeArgument = True
+		$4.SpaceBeforeColon = True
+		$4.__added = 0
+		$3.scope = text/x-fsharp
 	EndGlobalSection
 EndGlobal
